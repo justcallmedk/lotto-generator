@@ -16,6 +16,6 @@ CREATE TABLE numbers (
     UNIQUE KEY(draw_date,type_id,number,is_pb),
     INDEX(draw_date),
     FOREIGN KEY (type_id)
-	    REFERENCES types(id)
+        REFERENCES types(id)
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
