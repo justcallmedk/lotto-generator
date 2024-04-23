@@ -1,12 +1,12 @@
 CREATE TABLE type (
-	id INT NOT NULL auto_increment,
+    id INT NOT NULL auto_increment,
     name VARCHAR(45) NOT NULL,
 
     PRIMARY KEY(id)
 );
 
 CREATE TABLE numbers (
-	id INT NOT NULL auto_increment,
+    id INT NOT NULL auto_increment,
     number TINYINT NOT NULL,
     is_ball BIT NOT NULL,
     type_id INT NOT NULL,
