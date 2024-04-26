@@ -1,5 +1,6 @@
 const mysql = require('mysql');
 const util = require('util');
+const fetch = require("node-fetch");
 
 let connection,query;
 
