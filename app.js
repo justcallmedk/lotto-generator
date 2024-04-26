@@ -39,7 +39,7 @@ const insertDB = async (row,typeId,lastDate) => {
 
   for(let i = 0; i < numberRows.length;i++) {
     const number = numberRows[i];
-    console.log(typeId === PB_TYPE ? 'PB' : 'MM' + '::inserting ' + drawDate);
+    console.log((typeId === PB_TYPE ? 'PB' : 'MM') + '::inserting ' + drawDate);
     await query(INSERT_SQL, [number, typeId, drawDate, i === PB_PB_INDEX]);
   }
 }
