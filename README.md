@@ -1,4 +1,4 @@
-# SHOW ME THE MONEY
+# Lottery Data Collector
 
 ## DESCRIPTION
 This script pulls all historical Powerball and Mega Millions winning numbers from:<br />
