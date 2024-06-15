@@ -1,4 +1,4 @@
-# Lottery Data Collector
+# Lottery Data Generator
 
 ## DESCRIPTION
 This script pulls all historical Powerball and Mega Millions winning numbers from:<br />
